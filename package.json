@@ -5,14 +5,12 @@
   "author": "First Demo <ellison001@example.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   },
   "dependencies": {
     "express": "^4.16.1",
     "mocha": "^3.0,0",
     "supertest": "^3.0,0"
-  }
-  "scripts": {
-    "test": "mocha"
   }
 }
