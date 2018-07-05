@@ -1,12 +1,8 @@
 'use strict';
 
-var request = require("supertest"),
-    app = require("../app").getApp;
+var test = require('tape');
 
-describe('GET /', function(){
-  it('expects HTTP response 200', function(done){
-    request(app)
-     .get('/')
-	 .expect(200, done); 
-  });
+test('First test!', function (t) {
+  t.end();
 });
+
