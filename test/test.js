@@ -5,7 +5,7 @@ var request = require("supertest"),
 
 test('Correct users returned', function (t) {
   request(app)
-    .get('/')
+    .get('/abc')
     .expect(200)
     });
 });
