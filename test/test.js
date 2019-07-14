@@ -1,11 +1,11 @@
 'use strict';
 
 var request = require("supertest"),
-    app = require("../app");
+    app = require("../app")
 
 test('Correct users returned', function (t) {
   request(app)
     .get('/')
-    .expec(200)
+    .expect(200)
     });
 });
