@@ -1,10 +1,2 @@
-'use strict';
-
-
-
-test('Correct users returned', function (t) {
-
-    .get('/')
-    .expect(200)
-    });
-});
+break the test
+varasdfw
