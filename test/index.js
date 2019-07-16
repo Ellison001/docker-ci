@@ -5,7 +5,7 @@ var request = require('supertest');
 var app = require('../server');
 
 test('Correct users returned', function (t) {
-  request(app)
+  request(app
     .get('/api/users')
     .expect('Content-Type', /json/)
     .expect(200)
